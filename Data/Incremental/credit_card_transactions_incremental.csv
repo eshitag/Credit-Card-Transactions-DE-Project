@@ -1,0 +1,7 @@
+accountNumber,creditLimit,availableMoney,transactionDateTime,merchantName,transactionAmount,acqCountry,merchantCountryCode,posEntryMode,posConditionCode
+737265056,5000,4901.45,2017-01-05T18:45:12,Uber,98.55,US,US,02,01
+737265056,5000,4803.9,2017-01-06T09:12:44,Starbucks #10231,12.75,US,US,02,01
+830329091,5000,4928.82,2017-01-07T22:18:05,Apple iTunes,7.99,US,US,09,01
+830329091,5000,4500.0,2017-01-08T03:54:22,Shell Gas #88321,64.2,US,US,02,01
+945672331,3000,2899.99,2017-01-08T23:41:10,Amazon Marketplace,199.99,CA,US,09,01
+945672331,3000,2700.0,2017-01-09T01:22:48,Google Play,5.99,CA,US,09,01
