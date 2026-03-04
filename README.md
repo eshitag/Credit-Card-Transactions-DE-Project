@@ -5,6 +5,8 @@
 This project implements a robust, incremental data engineering pipeline using a Medallion Architecture. It processes credit card transaction data from a raw state to a highly optimized Star Schema in a Gold Layer, ready for BI reporting and Fraud Detection analysis.
 
 ## 🏗️ System Architecture
+![creditcarddataarchitecture-Page-1](https://github.com/user-attachments/assets/a8447752-2d21-48d2-8d1c-2a4ac2433460)
+
 The pipeline is divided into three distinct stages:
 
 - Ingestion (ADF & SQL Server): * Data is pulled from a GitHub source into a SQL Database.
@@ -34,6 +36,9 @@ Logic: New records are identified via Left Joins; surrogate keys are assigned by
 
 Fact Table (Transactional Hub)
 Granularity: Individual credit card transactions.
+
+## Star Schema
+![creditCardStarSchema](https://github.com/user-attachments/assets/9480321a-b6ef-4a91-bb62-3093793a45c7)
 
 Idempotency: Utilizes a txn_hash (SHA-256) to perform Delta Merges (Upserts). This ensures that re-running the pipeline never results in duplicate records.
 
